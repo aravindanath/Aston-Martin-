@@ -25,7 +25,8 @@ public class B_LogicalOperators {
 		
 		if (x < y || x <z )
 			System.out.println(x +" is smallest of all the numbers");
-				
+			
+		sc.close();
 		
 		
 		
