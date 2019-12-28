@@ -11,6 +11,8 @@ public class B_LogicalOperators {
 		int i =sc.nextInt();
 		int j =sc.nextInt();
 		int k =sc.nextInt();
+	
+		//Logical operators  
 		
 		if (i > j && i > k)
 			System.out.println(i +" is greatest");
@@ -27,7 +29,6 @@ public class B_LogicalOperators {
 			System.out.println(x +" is smallest of all the numbers");
 			
 		sc.close();
-		
 		
 		
 	}
