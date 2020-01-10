@@ -8,35 +8,38 @@ public class SwitchCases {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("ENter Month:");
 		String month = sc.next();
-		// Switch(Conditon)
+		// Key
 		switch (month) {
-		case "jan":
-			System.out.println("This is Jan 2020");
-			 int i =10;
+		// Value
+		case "Jan":
+			System.out.println("This jan month");
+
 			break;
-		case "feb":
-			System.out.println("This is feb 2020");
+		case "Feb":
+			System.out.println("This feb month");
+
 			break;
-		case "mar":
-			System.out.println("This is mar 2020");
+		case "Mar":
+			System.out.println("This Mar month");
+
 			break;
-		case "apr":
-			System.out.println("This is apr 2020");
+		case "Apr":
+			System.out.println("This APr month");
+
 			break;
-		case "may":
-			System.out.println("This is may 2020");
+		case "May":
+			System.out.println("This May month");
+
 			break;
-		case "june":
-			System.out.println("This is june 2020");
-			break;
-		
+
 		default:
-			System.out.println("Enter only first 6 months");
+
+			System.out.println("Enter first 5 months only!");
 			break;
 		}
 
-		
-		System.out.println("Out of condition");
+		System.out.println("Out of case");
+
 	}
 
 }
