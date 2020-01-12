@@ -1,5 +1,5 @@
 /*
- * SumitKumar - Read OTP using CharAt function
+ * SumitKumar - Read OTP using CharAt function updated
  * 
  */
 
