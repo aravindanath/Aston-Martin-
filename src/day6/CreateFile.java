@@ -1,10 +1,17 @@
 package day6;
 
+import java.util.Scanner;
+
 public class CreateFile {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		 // Absulote path
+		//c://user/arsha/eclipse-workspace/My First Java Project/TestData
+		///Users/aravindanathdm/eclipse-workspace/My First Java Project/TestData
+		
+		String relativePath = System.getProperty("user.dir");
 
+		System.out.println(relativePath);
 	}
 
 }
