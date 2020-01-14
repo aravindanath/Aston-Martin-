@@ -7,9 +7,9 @@ public class InstanceLocalVariable {
 	public static void main(String[] args) {
 		System.out.println("i am from "+ city);
 		InstanceLocalVariable i = new InstanceLocalVariable();
-		i.employee("Kaveri");
+		InstanceLocalVariable.employee("Kaveri");
 		i.students("Vetri");
-	
+		InstanceLocalVariable.employee("Tst");
 		employee("Arvind");
 		
 	}

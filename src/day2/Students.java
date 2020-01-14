@@ -7,7 +7,7 @@ public class Students {
 		
 		Students st = new Students();
 		st.studentsDetails("Krishna", 463, 88.00f, "Trupathi", 'M');
-		InstanceLocalVariable.employee("Sowmya");
+//		InstanceLocalVariable.employee("Sowmya");
 		InstanceLocalVariable i = new InstanceLocalVariable();
 		i.students("Kaveri");
 		i.employee("Vetri");

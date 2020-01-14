@@ -6,9 +6,7 @@ public class RegEx {
 
 		String msg = " Hi your account has been debited Rs.xxxx "
 				+ "OTP 123324 to complete the txn.";
-	
-		
-
+		System.out.println(msg);
 	}
 
 }

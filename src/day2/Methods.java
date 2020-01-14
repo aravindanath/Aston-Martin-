@@ -16,7 +16,6 @@ public class Methods {
 		ref.addNumber(num1, num2);
 		int val = ref.mulNum(num1, num2);
 		System.out.println(val +1);
-		
 	}
 	
 	// Access modifiers, return type, method name (Parameters)

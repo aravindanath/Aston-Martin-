@@ -13,6 +13,7 @@ public class StringManupulations {
 		System.out.println(city.replace("a", "@").replace("B", "M"));
 		System.out.println(city.substring(0, 4).toUpperCase()+city.substring(4, 9));
 		System.out.println(name.split("_")[0]);
+		System.out.println(city.substring(0,3).toUpperCase());
 		
 		System.out.println(name.split("_")[1]);
 		System.out.println(name.split(" ")[0]);
