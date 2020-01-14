@@ -1,6 +1,6 @@
 /*
  * 
- * @SumitKumar - TO read OTP from string where message contains string "OTP is"
+ * @SumitKumar - TO read OTP from string where message contains string "OTP is" -- updated
  * 
  */
 
