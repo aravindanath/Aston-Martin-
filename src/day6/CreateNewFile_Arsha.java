@@ -1,7 +1,11 @@
 package day6;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 
 public class CreateNewFile_Arsha {
 
@@ -17,6 +21,16 @@ public class CreateNewFile_Arsha {
         }else {
         	System.out.println("File is already created!");
         }
+        	
+        Writer w = new FileWriter(file);
+        BufferedWriter bf =  new BufferedWriter(w);
+        bf.write("Hello all good morning..");
+        bf.newLine();
+        bf.write("Happy learning java selenium..");
+        bf.flush();
+        bf.close();
+        
+        
 	}
 
 }
